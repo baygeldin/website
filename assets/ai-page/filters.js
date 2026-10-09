@@ -1,10 +1,8 @@
 export function toggleTaskType(selected, type, allTypes) {
-  if (type === 'all') return allTypes.slice();
-  if (selected.length === allTypes.length) return [type];
   if (!selected.includes(type))
     return allTypes.filter((id) => selected.includes(id) || id === type);
   const remaining = selected.filter((id) => id !== type);
-  return remaining.length ? remaining : allTypes.slice();
+  return remaining.length ? remaining : selected.slice();
 }
 
 export function selectionLabel(selected, taskTypes) {
@@ -21,13 +19,11 @@ export function createFilters(root, taskTypes, onChange) {
   let selected = allTypes.slice();
 
   function render() {
-    const all = selected.length === allTypes.length;
     for (const button of buttons) {
-      const active =
-        button.dataset.taskType === 'all'
-          ? all
-          : !all && selected.includes(button.dataset.taskType);
+      const active = selected.includes(button.dataset.taskType);
       button.setAttribute('aria-pressed', String(active));
+      button.disabled = active && selected.length === 1;
+      button.title = button.disabled ? 'Keep at least one task type selected' : '';
     }
   }
 

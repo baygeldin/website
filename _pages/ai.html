@@ -63,9 +63,8 @@ redirect_from:
             <div class="ai__task-filters">
               <span class="ai__task-filters__label" id="ai-task-type-label">Task type</span>
               <div class="ai__task-filters__chips" role="group" aria-labelledby="ai-task-type-label">
-                <button type="button" data-task-type="all" aria-pressed="true">All tasks</button>
                 {% for type in site.data.ai_benchmarks.task_types %}
-                <button type="button" data-task-type="{{ type.id }}" aria-pressed="false">{{ type.label }}</button>
+                <button type="button" data-task-type="{{ type.id }}" aria-pressed="true">{{ type.label }}</button>
                 {% endfor %}
                 <div class="ai__task-help" data-task-help>
                   <button type="button" class="ai__task-help__toggle" aria-expanded="false" aria-controls="ai-task-definitions" data-task-help-toggle>What are these?</button>
@@ -76,7 +75,7 @@ redirect_from:
                       <dd>{{ type.description }}</dd>
                       {% endfor %}
                     </dl>
-                    <p>All tasks combines results across all task types.</p>
+                    <p>Select one or more task types. All are selected by default.</p>
                   </div>
                 </div>
               </div>

@@ -224,6 +224,10 @@ body.ai-dialog-open {
         border-color: rgba($color-black, 0.25);
       }
 
+      &:disabled {
+        cursor: not-allowed;
+      }
+
       &:focus-visible {
         outline: 2px solid $color-red;
         outline-offset: 3px;
