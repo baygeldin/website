@@ -59,28 +59,28 @@ redirect_from:
         </div>
 
         <div class="ai__benchmark" id="benchmark" data-benchmark-panel="unified">
-          <div class="ai__models__table-wrap ai__models__table-wrap--unified ai__leaderboard-table">
-            <div class="ai__task-filters">
-              <span class="ai__task-filters__label" id="ai-task-type-label">Task type</span>
-              <div class="ai__task-filters__chips" role="group" aria-labelledby="ai-task-type-label">
-                {% for type in site.data.ai_benchmarks.task_types %}
-                <button type="button" data-task-type="{{ type.id }}" aria-pressed="true">{{ type.label }}</button>
-                {% endfor %}
-                <div class="ai__task-help" data-task-help>
-                  <button type="button" class="ai__task-help__toggle" aria-expanded="false" aria-controls="ai-task-definitions" data-task-help-toggle>What are these?</button>
-                  <div class="ai__task-help__popover" id="ai-task-definitions" hidden>
-                    <dl>
-                      {% for type in site.data.ai_benchmarks.task_types %}
-                      <dt>{{ type.label }}</dt>
-                      <dd>{{ type.description }}</dd>
-                      {% endfor %}
-                    </dl>
-                    <p>Select one or more task types. All are selected by default.</p>
-                  </div>
-                </div>
+          <div class="ai__task-filters">
+            <span class="ai__task-filters__label" id="ai-task-type-label">Task types:</span>
+            <div class="ai__task-filters__chips" role="group" aria-labelledby="ai-task-type-label">
+              {% for type in site.data.ai_benchmarks.task_types %}
+              <button type="button" data-task-type="{{ type.id }}" aria-pressed="true">{{ type.label }}<small>{{ type.stage }}</small></button>
+              {% endfor %}
+            </div>
+            <div class="ai__task-help" data-task-help>
+              <button type="button" class="ai__task-help__toggle" aria-expanded="false" aria-controls="ai-task-definitions" data-task-help-toggle>What are these?</button>
+              <div class="ai__task-help__popover" id="ai-task-definitions" hidden>
+                <dl>
+                  {% for type in site.data.ai_benchmarks.task_types %}
+                  <dt>{{ type.label }}</dt>
+                  <dd>{{ type.description }}</dd>
+                  {% endfor %}
+                </dl>
+                <p>Select one or more task types. All are selected by default.</p>
               </div>
             </div>
-            <p class="ai__scroll-hint">Swipe to compare all model metrics <span aria-hidden="true">→</span></p>
+          </div>
+          <p class="ai__scroll-hint">Swipe to compare all model metrics <span aria-hidden="true">→</span></p>
+          <div class="ai__models__table-wrap ai__models__table-wrap--unified ai__leaderboard-table">
             <div class="ai__models__table-scroll" tabindex="0" role="region" aria-label="Model benchmark results">
               <table class="ai__models__table" data-sortable-table>
                 <thead>
