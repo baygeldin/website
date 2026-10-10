@@ -1875,21 +1875,21 @@
           "cost_usd": 0.27
         },
         "grok-4.7-high": {
-          "score": 0.0,
+          "score": 0.23,
           "run_count": 3,
           "duration_seconds": 1553,
           "tokens": 17847481,
           "cost_usd": 9.95
         },
         "deepseek-v4.1-flash-max": {
-          "score": 0.33,
+          "score": 0.57,
           "run_count": 3,
           "duration_seconds": 2978,
           "tokens": 60365974,
           "cost_usd": 1.77
         },
         "kimi-k3-max": {
-          "score": 0.33,
+          "score": 0.57,
           "run_count": 3,
           "duration_seconds": 4012,
           "tokens": 21697153,
@@ -1994,7 +1994,7 @@
           "cost_usd": 0.8
         },
         "muse-spark-1.3-max": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 2684,
           "tokens": 16454059,
@@ -2015,77 +2015,77 @@
       ],
       "results": {
         "claude-opus-5.5-medium": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 401,
           "tokens": 785005,
           "cost_usd": 0.62
         },
         "claude-opus-5.5-xhigh": {
-          "score": 0.33,
+          "score": 0.8,
           "run_count": 3,
           "duration_seconds": 960,
           "tokens": 6541754,
           "cost_usd": 3.22
         },
         "gpt-6-astra-medium": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 431,
           "tokens": 449841,
           "cost_usd": 1.32
         },
         "gpt-6-astra-xhigh": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 577,
           "tokens": 660356,
           "cost_usd": 1.87
         },
         "gpt-6.1-sol-xhigh": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 645,
           "tokens": 826497,
           "cost_usd": 0.39
         },
         "gpt-6-luna-max": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 681,
           "tokens": 2511843,
           "cost_usd": 0.06
         },
         "grok-4.7-high": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 1553,
           "tokens": 9090165,
           "cost_usd": 5.75
         },
         "deepseek-v4.1-flash-max": {
-          "score": 0.33,
+          "score": 0.8,
           "run_count": 3,
           "duration_seconds": 1494,
           "tokens": 15399420,
           "cost_usd": 0.57
         },
         "kimi-k3-max": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 1938,
           "tokens": 5928536,
           "cost_usd": 3.3
         },
         "glm-5.3-flash-max": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 2666,
           "tokens": 7325144,
           "cost_usd": 0.26
         },
         "muse-spark-1.3-max": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 1434,
           "tokens": 7298926,
@@ -2106,56 +2106,56 @@
       ],
       "results": {
         "claude-opus-5.5-medium": {
-          "score": 0.0,
+          "score": 0.17,
           "run_count": 3,
           "duration_seconds": 558,
           "tokens": 1730814,
           "cost_usd": 1.09
         },
         "claude-opus-5.5-xhigh": {
-          "score": 0.67,
+          "score": 0.83,
           "run_count": 3,
           "duration_seconds": 2631,
           "tokens": 22181880,
           "cost_usd": 7.62
         },
         "gpt-6-astra-medium": {
-          "score": 0.0,
+          "score": 0.5,
           "run_count": 3,
           "duration_seconds": 548,
           "tokens": 491851,
           "cost_usd": 1.56
         },
         "gpt-6-astra-xhigh": {
-          "score": 0.33,
+          "score": 0.67,
           "run_count": 3,
           "duration_seconds": 682,
           "tokens": 1383797,
           "cost_usd": 3.42
         },
         "gpt-6.1-sol-xhigh": {
-          "score": 0.0,
+          "score": 0.5,
           "run_count": 3,
           "duration_seconds": 969,
           "tokens": 1208298,
           "cost_usd": 0.52
         },
         "gpt-6-luna-max": {
-          "score": 0.0,
+          "score": 0.5,
           "run_count": 3,
           "duration_seconds": 967,
           "tokens": 4643888,
           "cost_usd": 0.1
         },
         "grok-4.7-high": {
-          "score": 0.33,
+          "score": 0.5,
           "run_count": 3,
           "duration_seconds": 1560,
           "tokens": 15196293,
           "cost_usd": 8.51
         },
         "deepseek-v4.1-flash-max": {
-          "score": 0.33,
+          "score": 0.67,
           "run_count": 3,
           "duration_seconds": 2828,
           "tokens": 47111604,
@@ -2176,7 +2176,7 @@
           "cost_usd": 0.61
         },
         "muse-spark-1.3-max": {
-          "score": 0.0,
+          "score": 0.17,
           "run_count": 3,
           "duration_seconds": 1761,
           "tokens": 13748699,
@@ -2260,14 +2260,14 @@
           "cost_usd": 2.32
         },
         "glm-5.3-flash-max": {
-          "score": 0.0,
+          "score": 0.23,
           "run_count": 3,
           "duration_seconds": 1793,
           "tokens": 7312958,
           "cost_usd": 0.26
         },
         "muse-spark-1.3-max": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 1675,
           "tokens": 12216449,
@@ -2301,7 +2301,7 @@
           "cost_usd": 7.87
         },
         "gpt-6-astra-medium": {
-          "score": 0.67,
+          "score": 1.0,
           "run_count": 3,
           "duration_seconds": 789,
           "tokens": 688105,
@@ -2378,14 +2378,14 @@
       ],
       "results": {
         "claude-opus-5.5-medium": {
-          "score": 0.67,
+          "score": 0.9,
           "run_count": 3,
           "duration_seconds": 1195,
           "tokens": 2610827,
           "cost_usd": 1.44
         },
         "claude-opus-5.5-xhigh": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 1861,
           "tokens": 21988160,
@@ -2413,42 +2413,42 @@
           "cost_usd": 0.43
         },
         "gpt-6-luna-max": {
-          "score": 0.67,
+          "score": 0.9,
           "run_count": 3,
           "duration_seconds": 943,
           "tokens": 4520884,
           "cost_usd": 0.1
         },
         "grok-4.7-high": {
-          "score": 0.33,
+          "score": 0.9,
           "run_count": 3,
           "duration_seconds": 2104,
           "tokens": 13292615,
           "cost_usd": 7.94
         },
         "deepseek-v4.1-flash-max": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 2473,
           "tokens": 22041967,
           "cost_usd": 0.74
         },
         "kimi-k3-max": {
-          "score": 0.67,
+          "score": 0.9,
           "run_count": 3,
           "duration_seconds": 2397,
           "tokens": 7021962,
           "cost_usd": 3.8
         },
         "glm-5.3-flash-max": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 2588,
           "tokens": 11958299,
           "cost_usd": 0.41
         },
         "muse-spark-1.3-max": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 1546,
           "tokens": 10379674,
@@ -2566,7 +2566,7 @@
           "cost_usd": 2.31
         },
         "claude-opus-5.5-xhigh": {
-          "score": 0.67,
+          "score": 0.83,
           "run_count": 3,
           "duration_seconds": 3122,
           "tokens": 19368057,
@@ -3070,7 +3070,7 @@
           "cost_usd": 0.68
         },
         "kimi-k3-max": {
-          "score": 0.67,
+          "score": 1.0,
           "run_count": 3,
           "duration_seconds": 1873,
           "tokens": 3675911,
@@ -3119,28 +3119,28 @@
           "cost_usd": 6.73
         },
         "gpt-6-astra-medium": {
-          "score": 0.0,
+          "score": 0.5,
           "run_count": 3,
           "duration_seconds": 580,
           "tokens": 378007,
           "cost_usd": 1.41
         },
         "gpt-6-astra-xhigh": {
-          "score": 0.67,
+          "score": 0.83,
           "run_count": 3,
           "duration_seconds": 744,
           "tokens": 586370,
           "cost_usd": 2.2
         },
         "gpt-6.1-sol-xhigh": {
-          "score": 0.33,
+          "score": 0.67,
           "run_count": 3,
           "duration_seconds": 1044,
           "tokens": 974485,
           "cost_usd": 0.49
         },
         "gpt-6-luna-max": {
-          "score": 0.33,
+          "score": 0.5,
           "run_count": 3,
           "duration_seconds": 1300,
           "tokens": 9035055,
@@ -3154,7 +3154,7 @@
           "cost_usd": 6.28
         },
         "deepseek-v4.1-flash-max": {
-          "score": 0.67,
+          "score": 0.83,
           "run_count": 3,
           "duration_seconds": 3048,
           "tokens": 47413450,
@@ -3175,7 +3175,7 @@
           "cost_usd": 0.32
         },
         "muse-spark-1.3-max": {
-          "score": 0.33,
+          "score": 0.5,
           "run_count": 3,
           "duration_seconds": 1753,
           "tokens": 9386050,
@@ -3252,7 +3252,7 @@
           "cost_usd": 0.68
         },
         "kimi-k3-max": {
-          "score": 0.0,
+          "score": 0.23,
           "run_count": 3,
           "duration_seconds": 2799,
           "tokens": 7441525,
@@ -3287,7 +3287,7 @@
       ],
       "results": {
         "claude-opus-5.5-medium": {
-          "score": 0.67,
+          "score": 0.9,
           "run_count": 3,
           "duration_seconds": 907,
           "tokens": 2791362,
@@ -3301,35 +3301,35 @@
           "cost_usd": 7.74
         },
         "gpt-6-astra-medium": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 656,
           "tokens": 496726,
           "cost_usd": 1.65
         },
         "gpt-6-astra-xhigh": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 858,
           "tokens": 667447,
           "cost_usd": 2.26
         },
         "gpt-6.1-sol-xhigh": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 989,
           "tokens": 750707,
           "cost_usd": 0.43
         },
         "gpt-6-luna-max": {
-          "score": 0.0,
+          "score": 0.23,
           "run_count": 3,
           "duration_seconds": 1249,
           "tokens": 5073983,
           "cost_usd": 0.11
         },
         "grok-4.7-high": {
-          "score": 0.0,
+          "score": 0.7,
           "run_count": 3,
           "duration_seconds": 1967,
           "tokens": 10290155,
@@ -3350,7 +3350,7 @@
           "cost_usd": 5.79
         },
         "glm-5.3-flash-max": {
-          "score": 0.0,
+          "score": 0.47,
           "run_count": 3,
           "duration_seconds": 2192,
           "tokens": 10607121,

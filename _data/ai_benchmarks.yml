@@ -11,7 +11,7 @@ task_types:
   - id: multistep
     label: Multi-step tasks
     stage: Stage 3
-    description: 7 long-horizon tasks, featuring both greenfield and brownfield development.
+    description: 7 long-horizon tasks, featuring both greenfield and legacy apps.
 # Green and yellow cutoffs as fractions of the best-ranked configurations.
 thresholds:
   accuracy: [0.2, 0.5]
